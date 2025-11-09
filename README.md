@@ -12,3 +12,5 @@ Keep in mind that this current work was done using "outdated" versions of Pythia
 * Download the files mymain91.cc and inputmyeezpythia.cmd into your examples file inside Pythia
 * Using `make mymain91` you can make the file mymain91 (which was based on the main91 example of Pythia)
 * To run the file use `./mymain91 inputmyeezpythia.cmd`
+* You can play arround with the inputmyeezpythia.cmd file and take measurements, depending on the 3 propagator cases (gamma only, Z only and both)
+* The uploaded .C files are the code files in ROOT I used to take my forward - backward Assymetry measurements. You can follow the logic of these files and do them on your own (since the Monte Carlo seed will be different and you will have different "numbers" after you run the code)
