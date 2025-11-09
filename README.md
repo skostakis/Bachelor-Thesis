@@ -9,8 +9,9 @@ The full Bachelor's Thesis can be found here: https://ikee.lib.auth.gr/record/36
 
 Keep in mind that this current work was done using "outdated" versions of Pythia event simulator and ROOT. Nothing changes dramatically though, so the basic analysis logic does not change.
 
-* Download the files mymain91.cc and inputmyeezpythia.cmd into your examples file inside Pythia
+* Download the files mymain91.cc, inputmyeezpythia.cmd and myfit.C into your examples file inside Pythia
 * Using `make mymain91` you can make the file mymain91 (which was based on the main91 example of Pythia)
 * To run the file use `./mymain91 inputmyeezpythia.cmd`
-* You can play arround with the inputmyeezpythia.cmd file and take measurements, depending on the 3 propagator cases (gamma only, Z only and both)
-* The uploaded .C files are the code files in ROOT I used to take my forward - backward Assymetry measurements. You can follow the logic of these files and do them on your own (since the Monte Carlo seed will be different and you will have different "numbers" after you run the code)
+* We now run the myfit.C file using `root myfit.C` to find the  forward - backward assymetry (A_FB) and the error in A_FB for a **specific** Center of Mass (CoM) energy you coose in the inputmyeezpythia.cmd file.
+* Exept from playing with the CoM energy in the inputmyeezpythia.cmd file, you can also play arround with the 3 propagator cases (gamma only, Z only and both)
+* The uploaded .C files like Afb are the code files in ROOT I used to take my forward - backward Assymetry measurements. You can follow the logic of these files and do them on your own (since the Monte Carlo seed will be different and you will have different "numbers" after you run the code)
