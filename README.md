@@ -9,6 +9,6 @@ The full Bachelor's Thesis can be found here: https://ikee.lib.auth.gr/record/36
 
 Keep in mind that this current work was done using "outdated" versions of Pythia event simulator and ROOT. Nothing changes dramatically though, so the basic analysis logic does not change.
 
-* Download the files into your examples file inside Pythia
-* Using make mymain91.cc you can make the file mymain91 (which was based on the main91 example of Pythia)
-* To run the file use ./mymain91 inputmyeezpythia.cmd
+* Download the files mymain91.cc and inputmyeezpythia.cmd into your examples file inside Pythia
+* Using `make mymain91` you can make the file mymain91 (which was based on the main91 example of Pythia)
+* To run the file use `./mymain91 inputmyeezpythia.cmd`
