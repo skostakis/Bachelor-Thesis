@@ -12,6 +12,6 @@ Keep in mind that this current work was done using "outdated" versions of Pythia
 * Download the files mymain91.cc, inputmyeezpythia.cmd and myfit.C into your examples file inside Pythia
 * Using `make mymain91` you can make the file mymain91 (which was based on the main91 example of Pythia)
 * To run the file use `./mymain91 inputmyeezpythia.cmd`
-* We now run the myfit.C file using `root myfit.C` to find the  forward - backward assymetry (A_FB) and the error in A_FB for a **specific** Center of Mass (CoM) energy you coose in the inputmyeezpythia.cmd file.
+* We now run the myfit.C file using `root myfit.C` to find the forward - backward assymetry (A_FB) and the error in A_FB for a **specific** Center of Mass (CoM) energy we choose in the inputmyeezpythia.cmd file.
 * Exept from playing with the CoM energy in the inputmyeezpythia.cmd file, you can also play arround with the 3 propagator cases (gamma only, Z only and both)
-* The uploaded .C files like Afb are the code files in ROOT I used to take my forward - backward Assymetry measurements. You can follow the logic of these files and do them on your own (since the Monte Carlo seed will be different and you will have different "numbers" after you run the code)
+* The uploaded .C files like Afb_sqrts_g.C, Afb_sqrts_g.C and Afb_sqrts.C are the code files in ROOT I used to take plot my A_FB in some cases. You can follow the logic of these files and do them on your own (since the Monte Carlo seed will be different and you will have different "numbers" after you run the code)
